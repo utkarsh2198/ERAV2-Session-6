@@ -1,5 +1,10 @@
 # ERAV2-Session-6
+This is School of AI ERA V2 Session - 6 Assignment submission. This assignment is based on backpropagation and building advanced architectures by combining the learnings till this session. <br>
+<br>
+This assignment has two parts - 
 ## Part 1 
+Here we need to perform backpropgation manually in Excel to understand the under the hood maths of nueral networks. <br>
+Here is the summary of the steps we follow in filling the Excel: <br>
 1. Forward Propogation:<br>
 - Calculate h1 and h2 - hidden state values for the first hidden layer  <br>
 h1 = w1\*i1 + w2*i2  <br> 
@@ -64,6 +69,36 @@ alpha = 1.0 <br>
 
 alpha = 2.0 <br>
 <img width="500" alt="Screenshot 2024-02-29 at 2 20 23 AM" src="https://github.com/utkarsh2198/ERAV2-Session-6/assets/20721200/af505fda-7504-4e1b-8e43-bb58b0c0b091">
+<br>
+## Part 2
+This part of the assignment is based on MNIST Digit Classification. We need to build a model that following conditions:
+- 99.4% validation accuracy
+- Less than 20k Parameters
+- Less than 20 Epochs
+- Have used BN, Dropout
+- (Optional): a Fully connected layer, have used GAP.   <br>
+
+We need combine all our learnings till this seesion to build this model. <br>
+### Files Overview:
+
+#### 3. S5.ipynb
+`Session6_Assignment_part2.ipynb` is a Jupyter Notebook file where the main code is written and experiment is conducted. It includes the training loop, model evaluation, and visualization of results.
+
+### Instructions:
+
+To run the code:
+
+1. Clone the repository to your local machine: 
+2. Navigate to the project directory:
+cd ERAV2-Session-6
+3. Open `Session6_Assignment_part2.ipynb` using Jupyter Notebook:
+4. Follow the instructions in the notebook to train the model, evaluate its performance, and make predictions on new data.
+
+### Additional Notes:
+
+- Make sure you have Python and Jupyter Notebook installed on your system.
+- The project uses PyTorch for implementing the CNN model.
+- For any questions or issues, please contact [Utkarsh Gupta](mailto:utkarsh2198@gmail.com).
 
 
 
